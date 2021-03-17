@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#234E70"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Numbers"
+        android:textColor="#FFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnPolice"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Police"
+        android:textSize="18dp"
+        />
+    <Button
+        android:id="@+id/btnFire"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Fire"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/btnMedical"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Medical"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/btnWomenHL"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Women Helpline"
+        android:textSize="18dp"
+        />
+    <Button
+        android:id="@+id/btnAirAmbulance"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Air Ambulance"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/btnRailway"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Railway Enquiry"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/btnKisan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Kisan Call Centre"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/btnLPG"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="LPG Leak Helpline"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>
